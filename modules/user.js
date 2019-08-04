@@ -13,10 +13,10 @@ class UesrModel {
      */
     static async createUesr(data){
         return await Uesr.create({
-            name: data.name, //标题
-            gender: data.gender,  //作者
-            isWed: data.isWed,  //文章内容
-            address: data.address, //文章分类
+            name: data.name, 
+            gender: data.gender,  
+            isWed: data.isWed,  
+            address: data.address, 
             hobby: data.hobby
         });
     }
