@@ -52,8 +52,6 @@ class UesrModel {
      * 修改指定id用户
      */
     static async upertUserById(data) {
-        let user = await this.findUesrById(data.id)
-        // console.log(user)
         return await Uesr.upert(data)
     }
 }
